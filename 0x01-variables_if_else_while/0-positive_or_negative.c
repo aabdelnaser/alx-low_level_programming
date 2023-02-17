@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * 
- * main - This Program is responsible for printing random numbers and 
- *        prints the number with its type (Positive, Negative, or Zero)
- *
+ * main - Prints a random number and states whether
+ *        it is positive, negative, or zero.
  *
  * Return: Always 0.
 */
