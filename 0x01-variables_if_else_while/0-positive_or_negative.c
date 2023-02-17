@@ -2,10 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * This Program is responsible for printing random numbers and prints the number with its type (Positive, Negative, or Zero)
  * 
+ * main - This Program is responsible for printing random numbers and 
+ *        prints the number with its type (Positive, Negative, or Zero)
+ *
+ *
  * Return: Always 0.
- * Name: Ahmed Abdel Nasser
 */
 int main(void)
 {
