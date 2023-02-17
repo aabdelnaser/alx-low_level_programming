@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints a random number and states its type 
+ * main - Prints a random number and states its type
  *
  *
  * Return: Always 0.
