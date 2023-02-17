@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * This Program is responsible for printing random numbers and prints the number with its type (Positive, Negative, or Zero)
+ * 
+ * Return: Always 0.
+ * Name: Ahmed Abdel Nasser
+*/
 int main(void)
 {
 	int n;
