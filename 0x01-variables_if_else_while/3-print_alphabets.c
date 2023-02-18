@@ -3,10 +3,10 @@
 /**
  * main - Program that prints the alphabet in lowercase then in UPPERCASE
  *
- * Return : Always 0.
+ * Return: Always 0 (Success)
  * Name: Ahmed Abdel Nasser
  */
-int main (void)
+int main(void)
 {
 	char lowercaseLetter;
 	char uppercaseLetter;
