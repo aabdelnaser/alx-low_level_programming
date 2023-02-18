@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Program that prints all the numbers of base 16 
+ * main - Program that prints all the numbers of base 16
  *        in lowercase, followed by a new line with putchar
  *
  *
@@ -11,16 +11,15 @@
 int main(void)
 {
 	int hexadecimalNumber;
-	char hexadecimalCharacter;
+	char letter;
 
 	for (hexadecimalNumber = 48 ; hexadecimalNumber < 58 ; hexadecimalNumber++)
 	{
 		putchar(hexadecimalNumber);
 	}
-	for (hexadecimalCharacter = 'a' ;
-		       	hexadecimalCharacter <= 'f' ; hexadecimalCharacter++)
+	for (letter = 'a' ; letter <= 'f' ; letter++)
 	{
-		putchar(hexadecimalCharacter);
+		putchar(letter);
 	}
 	putchar('\n');
 
