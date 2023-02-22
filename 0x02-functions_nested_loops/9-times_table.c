@@ -21,21 +21,31 @@ void times_table(void)
 			{
 				_putchar(result / 10);
 				_putchar((result % 10) + '0');
-			}
-			else
-			{
-				_putchar((result / 10) + '0');
-				_putchar((result % 10) + '0');
-			}
-			if (column == 9)
+				if(column == 9)
 				{
 					_putchar('\n');
 				}
-			else
+				else
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
+			}
+			else if (result > 9)
+			{
+				_putchar((result / 10) + '0');
+				_putchar((result % 10) + '0');
+				if (column == 9)
+				{
+					_putchar('\n');
+				}
+				else
 				{
 					_putchar(',');
 					_putchar(' ');
 				}
+			}
 		}
 	}
 }
