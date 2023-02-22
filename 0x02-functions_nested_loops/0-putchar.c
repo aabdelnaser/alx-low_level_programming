@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -15,10 +16,10 @@ int main(void)
 
   for (int i = 0 ; i < 8 ; i++)
     {
-      putchar(wordCharacters[i]);
+      _putchar(wordCharacters[i]);
     }
 
-  putchar('\n');
+  _putchar('\n');
 
   return (0);
 }
