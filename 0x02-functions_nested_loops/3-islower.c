@@ -3,6 +3,7 @@
 
 /**
  * _islower - Function that checks for lowercase character
+ *@c: an integer declared variable to be tested in ASCII Code
  *
  * Return: Always 1 if lowercase, 0 otherwise
  * Name: Ahmed Abdel Nasser
