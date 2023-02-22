@@ -2,7 +2,6 @@
 #include "main.h"
 
 /**
- *
  * main - Program that prints _putchar, followed by a new line and returns 0
  *
  * Return: Always 0 (Success)
@@ -12,15 +11,15 @@
 
 int main(void)
 {
-  char wordCharacters[] = "_putchar";
-  int i;
-
-  for (i = 0 ; i < 8 ; i++)
-    {
-      _putchar(wordCharacters[i]);
-    }
-
-  _putchar('\n');
-
-  return (0);
+	char wordCharacters[] = "_putchar";
+	int i;
+	
+	for (i = 0 ; i < 8 ; i++)
+	{
+		_putchar(wordCharacters[i]);
+	}
+	
+	_putchar('\n');
+	
+	return (0);
 }
