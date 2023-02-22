@@ -5,7 +5,7 @@
  * _abs - Function that computes the absolute value of an integer.
  * @i : An integer declared variable.
  *
- * Return: Void 
+ * Return: Void
  * Name: Ahmed Abdel Nasser
  * ALX Software Engineering Cohort 12
  */
