@@ -3,7 +3,7 @@
 
 /**
  * _isalpha - Function hat checks for alphabetic character
- * @c: An integer Declared Variable to be checked 
+ * @c: An integer Declared Variable to be checked
  *     by ASCII Code whether it's alpha or not
  *
  * Return: Always 1 if it's a letter, 0 otherwise
