@@ -21,8 +21,14 @@ void times_table(void)
 			{
 				_putchar(result / 10);
 				_putchar((result % 10) + '0');
-			       	_putchar(',');
-				_putchar(' ');
+				if (column == 9)
+				{
+					_putchar('\n');
+				}
+				else
+				{
+					_putchar(',');
+					_putchar(' ');
 			}
 			else
 			{
