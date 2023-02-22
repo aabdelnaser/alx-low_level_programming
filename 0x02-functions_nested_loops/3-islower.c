@@ -12,12 +12,12 @@ int _islower(int c)
 {
 	char alphabet;
 
-	if (alphabet >= 'a' && alphabet <= 'z')
+	if (c >= 97 && c <= 122)
 	{
-		return 1;
+		return (1);
 	}
 	else
 	{
-		return 0;
+		return (0);
 	}
 }
