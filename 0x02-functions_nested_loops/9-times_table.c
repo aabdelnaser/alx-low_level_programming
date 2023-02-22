@@ -19,12 +19,15 @@ void times_table(void)
 			result = row * column;
 			_putchar(result / 10);
 			_putchar(result % 10);
-			_putchar(',');
-			_putchar(' ');
-		}
-		if (column == 9)
-		{
-		_putchar('\n');
+			if(column = 9)
+			{
+				_putchar('\n');
+			}
+			else
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 	}
 }
