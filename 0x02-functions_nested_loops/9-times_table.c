@@ -10,7 +10,7 @@
  */
 void times_table(void)
 {
-	int row, column, result;
+	int row, column;
 	
 	for (row = 0 ; row <= 8 ; row++)
 	{
