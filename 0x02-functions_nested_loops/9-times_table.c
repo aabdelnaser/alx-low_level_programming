@@ -20,19 +20,19 @@ void times_table(void)
 			if (result <= 9)
 			{
 				_putchar(result / 10);
-				_putchar((result % 10));
-				if(column == 9)
-				{
-					_putchar('\n');
-				}
-				else
+				_putchar((result % 10) + '0');
+				if(column >= 9)
 				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 				}
+				else
+				{
+					_putchar('\n');
+				}
 			}
-			else if (result > 9)
+			else if (result < 9)
 			{
 				_putchar((result / 10) + '0');
 				_putchar((result % 10) + '0');
@@ -48,4 +48,5 @@ void times_table(void)
 			}
 		}
 	}
+
 }
