@@ -18,6 +18,6 @@ int print_last_digit(int lastDigit)
 	{
 		tmpNumber = tmpNumber * -1;
 	}
-	_putchar(tmpNumber);
+	_putchar(tmpNumber + '0');
 	return (tmpNumber);
 }
