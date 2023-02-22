@@ -9,7 +9,7 @@
  * ALX Software Engineering Cohort 12
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char alphabet;
 
