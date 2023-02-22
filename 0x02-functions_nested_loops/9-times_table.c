@@ -19,8 +19,9 @@ void times_table(void)
 			result = row * column;
 			if (result <= 9)
 			{
-				_putchar(result % 10);
-				_putchar(',');
+				_putchar(result / 10);
+				_putchar((result % 10) + '0');
+			       	_putchar(',');
 				_putchar(' ');
 			}
 			else
@@ -29,5 +30,6 @@ void times_table(void)
 				_putchar((result % 10) + '0');
 			}
 		}
+		_putchar('\n');
 	}
 }
