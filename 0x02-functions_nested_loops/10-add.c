@@ -6,7 +6,7 @@
  * @num1: First Integer Declared Variable TO Be Added
  * @num2: Second Integer Declared Variable To Be Added
  *
- * Returns: Always 0 (Success)
+ * Return: The summation of the two integers
  * Name: Ahmed Abdel Nasser
  * ALX Software Engineering Cohort 12
  */
