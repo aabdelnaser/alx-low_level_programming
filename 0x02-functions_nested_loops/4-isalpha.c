@@ -3,7 +3,8 @@
 
 /**
  * _isalpha - Function hat checks for alphabetic character
- * @c: An integer Declared Variable to be checked by ASCII Code whether it's alpha or not
+ * @c: An integer Declared Variable to be checked 
+ *     by ASCII Code whether it's alpha or not
  *
  * Return: Always 1 if it's a letter, 0 otherwise
  * Name: Ahmed Abdel Nasser
@@ -12,7 +13,11 @@
 
 int _isalpha(int c)
 {
-	if (c >= 65 && c <= 90 && c >= 97 && c <= 122)
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
