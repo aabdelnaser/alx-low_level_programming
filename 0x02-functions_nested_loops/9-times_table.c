@@ -25,16 +25,15 @@ void times_table(void)
 			else
 			{
 				_putchar((result % 10) + '0');
+				_putchar(',');
+				_putchar(' ')
 			}
+		}
+
 			if (column == 9)
 			{
 				_putchar('\n');
 			}
-			else
-			{
-				_putchar(',');
-				_putchar(' ');
-			}
-		}
 	}
+
 }
