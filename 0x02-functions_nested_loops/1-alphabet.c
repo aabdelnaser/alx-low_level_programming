@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - Program prints the alphabet, in lowercase, followed by a new line.
+ * print_alphabet - Program prints the alphabet, in lowercase, followed by a new line.
  *
  * Return: Always 0 (Success)
  * Name: Ahmed Abdel Nasser
@@ -13,11 +13,11 @@ void print_alphabet(void)
 {
 	char alphabet;
 
-	for ( alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
+	for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
 	{
 		_putchar(alphabet);
 	}
-	
+
 	_putchar('\n');
 
 }
