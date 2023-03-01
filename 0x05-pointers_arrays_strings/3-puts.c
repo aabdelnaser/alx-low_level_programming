@@ -13,8 +13,7 @@ void _puts(char *str)
 {
 	int i, tmp;
 
-	tmp = sizeof(str);
-	for (i = 0 ; i <= tmp ; i++)
+	for (i = 0 ; str[i] != '\0' ; i++)
 	{
 		_putchar(str[i]);
 	}
