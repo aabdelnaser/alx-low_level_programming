@@ -19,7 +19,7 @@ int primeNumberChecker(int num1, int num2)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (primeNumberChecker(num1 + 1, num2));
 	}
