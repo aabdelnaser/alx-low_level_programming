@@ -8,7 +8,7 @@
  * Name : Ahmed Abdel Nasser Fathy
  * ALX Software Engineering Cohort 12
  */
-vvoid _print_rev_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 	if (*s == '\0')
 	{
