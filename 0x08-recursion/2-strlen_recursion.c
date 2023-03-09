@@ -4,7 +4,7 @@
  * _strlen_recursion - A function that returns the length of a string.
  * @s : A declared string variable
  *
- * Return : Always 0 (Success)
+ * Return : integer value
  * Name: Ahmed Abdel Nasser Fathy
  * ALX Software Engineering Cohort 12.
  */
