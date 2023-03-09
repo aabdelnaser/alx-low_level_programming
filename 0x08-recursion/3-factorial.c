@@ -3,7 +3,7 @@
 /**
  * factorial - A function that returns
  *             the factorial of a given number.
- * n: A declared intetger variable.
+ * @n: A declared intetger variable.
  *
  * Return:int
  *
