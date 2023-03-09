@@ -3,7 +3,7 @@
 /**
  * factorial - A function that returns
  *             the factorial of a given number.
- * n: A declared interger variable.
+ * n: A declared intetger variable.
  *
  * Return:int
  *
@@ -27,4 +27,4 @@ int factorial(int n)
 	return (1);
 	}
 	return (res);
-}	
+}
