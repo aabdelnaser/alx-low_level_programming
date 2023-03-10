@@ -8,11 +8,11 @@
  * Name: Ahmed Abdel Nasser
  * ALX Software Engineering Cohort 12
  */
-int _abs(int i)
+int _abs(int n)
 {
-	if (i < 0)
+	if (n >= 0)
 	{
-		i = i * -1;
+		return (n);
 	}
-	return (i);
+	return (-n);
 }
