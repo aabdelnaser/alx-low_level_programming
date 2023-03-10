@@ -2,23 +2,21 @@
 #include "main.h"
 
 /**
- * print_alphabet - Program prints the alphabet
- *                  in lowercase, followed by a new line.
+ * _islower - Function that checks for lowercase character
+ *@c: an integer declared variable to be tested in ASCII Code
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 if lowercase, 0 otherwise
  * Name: Ahmed Abdel Nasser
  * ALX Software Engineering Cohort 12
  */
-
-void print_alphabet(void)
+int _isupper(int c)
 {
-	char alphabet;
-
-	for (alphabet = 'A' ; alphabet <= 'Z' ; alphabet++)
+	if (c >= 65 && c <= 90)
 	{
-		_putchar(alphabet);
+		return (1);
 	}
-
-	_putchar('\n');
-
+	else
+	{
+		return (0);
+	}
 }
