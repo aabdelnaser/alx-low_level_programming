@@ -13,7 +13,7 @@
  * Name: Ahmed Abdel Nasser
  * ALX Software Engineering Cohort 12
  */
-void first_dog(struct dog *d, char *name, float age, char *owner)
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
 	{
