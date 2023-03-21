@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - function that prints the name of the file
+ * main - program that prints the name of the file
  *        , followed by a new line.
  *
  * Return: ALways 0
