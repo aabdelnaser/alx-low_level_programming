@@ -22,9 +22,6 @@ struct dog
 
 typedef struct dog dog_poppy;
 
-void first_dog(struct dog *d, char *name, float age, char *owner);
-void print_dog(struct dog *d);
-dog_poppy *new_dog(char *name, float age, char *owner);
-void poppy(dog_poppy *d);
+void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif
