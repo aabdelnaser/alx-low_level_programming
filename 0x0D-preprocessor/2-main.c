@@ -3,7 +3,9 @@
  * main - function that prints the name of the file it
  *        was compiled from, followed by a new line.
  *
- * Returns : ALways 0 (Success)
+ * Return: ALways 0 (Success)
+ * Name : Ahmed Abdel Nasser
+ * ALX Software Engineering Cohort 12
  */
 int main(void)
 {
