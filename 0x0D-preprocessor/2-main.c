@@ -1,9 +1,10 @@
 #include <stdio.h>
 /*
- * main - function that prints the name of the file it
- *        was compiled from, followed by a new line.
+ * main - function that prints the name of the file
+ *        , followed by a new line.
  *
- * Return: ALways 0 (Success)
+ * Return: ALways 0
+ *
  * Name : Ahmed Abdel Nasser
  * ALX Software Engineering Cohort 12
  */
