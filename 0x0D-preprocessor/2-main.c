@@ -1,7 +1,6 @@
 #include <stdio.h>
-/*
- * main - program that prints the name of the file
- *        , followed by a new line.
+/**
+ * main -prints the name of the file
  *
  * Return: ALways 0
  * Name : Ahmed Abdel Nasser
