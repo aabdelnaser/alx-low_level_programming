@@ -20,8 +20,8 @@ void print_opcodes(char *a, int bytesNumber)
 		if (i < bytesNumber - 1)
 		{
 			printf(" ");
+			i++
 		}
-		i++;
 	}
 	printf("\n");
 }
