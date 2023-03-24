@@ -19,7 +19,7 @@ void print_opcodes(char *a, int bytesNumber)
 		printf("%.2hhx", a[i]);
 		if (i < bytesNumber - 1)
 		{
-			printf("");
+			printf(" ");
 		}
 		i++;
 	}
