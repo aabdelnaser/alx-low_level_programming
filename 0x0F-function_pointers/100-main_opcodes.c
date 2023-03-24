@@ -23,6 +23,7 @@ void print_opcodes(char *a, int bytesNumber)
 		}
 		i++;
 	}
+	printf("\n");
 }
 /**
  * main - Prints the opcodes of its own main function
