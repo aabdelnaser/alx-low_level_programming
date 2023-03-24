@@ -14,13 +14,12 @@ void print_opcodes(char *a, int bytesNumber)
 	int i;
 
 	i = 0;
-	while (i < bytesNumber)
+	for (i = 0 ; i < bytesNumber ; i++)
 	{
 		printf("%.2hhx", a[i]);
 		if (i < bytesNumber - 1)
 		{
 			printf(" ");
-			i++;
 		}
 	}
 	printf("\n");
