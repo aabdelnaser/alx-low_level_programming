@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 /**
  * print_opcodes - program that prints opcodes
  * @bytesNumber - number of the bytes
