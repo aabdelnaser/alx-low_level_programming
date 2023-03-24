@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - Program that prints _putchar
+ * _putchar - Program that prints a character
  *
  * Return: Always 0
  * Name: Ahmed Abdel Nasser
