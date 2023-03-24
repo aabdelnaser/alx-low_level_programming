@@ -10,17 +10,17 @@
  * ALX Software Engineering Cohort 12
  */
 
-void print_opcodes(char *p, int bytesNumber)
+void print_opcodes(char *a, int bytesNumber)
 {
-	int i; 
+	int i;
 
 	i = 0;
 	while (i < bytesNumber)
 	{
-		printf("%.2hhx", p[i]);
+		printf("%.2hhx", a[i]);
 		if (i < bytesNumber - 1)
 		{
-			printf("");
+			printf(" ");
 		}
 		i++;
 	}
