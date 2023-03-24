@@ -3,13 +3,12 @@
 /**
  * print_opcodes - program that prints opcodes
  * @bytesNumber - number of the bytes
- * @p - address of function
+ * @a - address of function
  *
  * Return: Void
  * Name: Ahmed Abdel Nasser
  * ALX Software Engineering Cohort 12
  */
-
 void print_opcodes(char *a, int bytesNumber)
 {
 	int i;
@@ -20,7 +19,7 @@ void print_opcodes(char *a, int bytesNumber)
 		printf("%.2hhx", a[i]);
 		if (i < bytesNumber - 1)
 		{
-			printf(" ");
+			printf("");
 		}
 		i++;
 	}
