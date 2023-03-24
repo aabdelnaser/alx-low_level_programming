@@ -2,24 +2,13 @@
 #include "main.h"
 
 /**
- * main - Program that prints _putchar, followed by a new line and returns 0
+ * main - Program that prints _putchar
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  * Name: Ahmed Abdel Nasser
  * ALX Software Engineering Cohort 12
- */
-
-int main(void)
+*/
+int _putchar(char c)
 {
-	char wordCharacters[] = "_putchar";
-	int i;
-
-	for (i = 0 ; i < 8 ; i++)
-	{
-		_putchar(wordCharacters[i]);
-	}
-
-	_putchar('\n');
-
-	return (0);
+	return (write(1, &c, 1));
 }
