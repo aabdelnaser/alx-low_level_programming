@@ -8,7 +8,8 @@
  * Name : Ahmed Abdel Nasser
  * email: ahmedfathyme.af@gmail.com
  */
-void *malloc_checked(unsigned int b){
+void *malloc_checked(unsigned int b)
+{
 	int *memory = malloc(b);
 
 	if(memory == 0)
