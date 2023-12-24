@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main - It's a program that prints _putchar
- * 	, followed by a new line and return 0.
+ * , followed by a new line and return 0.
  *
  * Return: Always 0 (Success)
  * Name: Ahmed Abdel Nasser
