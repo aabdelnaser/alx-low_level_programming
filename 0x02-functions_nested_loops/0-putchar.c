@@ -9,8 +9,9 @@
  */
 int main (void)
 {
+	int i;
 	char putchar_letters[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-	for (int i = 0; i < 8; i++)
+	for (i = 0; i < 8; i++)
 	{
 		_putchar(putchar_letters[i]);
 	}
