@@ -4,7 +4,7 @@
  * _islower - a function that checks for lowercase character.
  * @c: It's an integer return value.
  *
- * Return: Always 1 if lowercase, 0 otherwise 
+ * Return: Always 1 if lowercase, 0 otherwise
  * Name : Ahmed Abdel Nasser
  * E-mail:ahmedfathyme.af@gmail.com
  */
