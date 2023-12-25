@@ -10,14 +10,14 @@
  */
 void print_alphabet_x10(void)
 {
-	int i,j;
+	int i;
 	char lowercaseAlphabet;
 
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 97; j <= 122; j++)
+		for (lowercaseAlphabet = 97; lowercaseAlphabet <= 122; lowercaseAlphabet++)
 		{
-			_putchar(lowercaseAlphabet[j]);
+			_putchar(lowercaseAlphabet);
 		}
 		_putchar('\n');
 	}
