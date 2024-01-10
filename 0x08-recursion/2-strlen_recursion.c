@@ -1,14 +1,9 @@
 #include "main.h"
 /**
- * _strlen_recursion - check description
- * Description : a function that returns the length of a string.
- * @s : The string that we calculate its length.
+ * _strlen_recursion - a function that returns the length of a string
+ * @s : The string that  calculate its length.
  *
- * Return : If the condition is false, it will return 0,
- *          the function will continue recursively.
- *
- * Name: Ahmed Abdel Nasser
- * ALX Software Engineering Cohort 22
+ * Return: Always 0
  */
 int _strlen_recursion(char *s)
 {
