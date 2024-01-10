@@ -4,7 +4,8 @@
  * Description : a function that returns the length of a string.
  * @s : The string that we calculate its length.
  *
- * Return : Always 0
+ * Return : If the condition is false, it will return 0,
+ *          the function will continue recursively.
  *
  * Name: Ahmed Abdel Nasser
  * ALX Software Engineering Cohort 22
