@@ -6,8 +6,7 @@
  * @x : The base Number
  * @y : The power number
  *
- * Return : The result of power, otherwise an error,
- *          otherwise if y == 0 then returns 1
+ * Return : Result of the power
  */
 int _pow_recursion(int x, int y)
 {
