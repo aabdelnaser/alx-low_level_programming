@@ -19,6 +19,7 @@ int prime_number_checker(int dividend, int divisor)
 	{
 		return (prime_number_checker(dividend + 1, divisor));
 	}
+}
 /**
  * is_prime_number - a function that returns 1
  *                   if the input integer is a prime number
