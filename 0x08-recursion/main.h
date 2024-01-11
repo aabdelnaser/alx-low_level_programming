@@ -8,3 +8,5 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion_helper(int n, int rootNumber);
 int _sqrt_recursion(int n);
+int prime_number_checker(int dividend, int divisor);
+int is_prime_number(int n);
